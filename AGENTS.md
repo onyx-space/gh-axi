@@ -90,3 +90,7 @@ Keep this file for knowledge useful to almost every future agent session in this
 Do not repeat what the codebase already shows; point to the authoritative file or command instead.
 Prefer rewriting or pruning existing entries over appending new ones.
 When updating this file, preserve this bar for all agents and keep entries concise.
+
+## pr-axi usage
+
+Raising PRs in this repo (and any onyx-space fork) is routed through `pr-axi`: `pr-axi raise` opens a same-repo PR, `pr-axi raise --upstream` opens a PR to the parent via a transient fork switch. See `~/.agents/skills/pr-axi/SKILL.md`.
